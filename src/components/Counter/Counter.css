@@ -1,0 +1,72 @@
+.contadorContainer {
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.contadorContainer h3{
+    color: #4D5E80;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-decoration-line: underline;
+}
+
+.contador{
+    display: flex;
+    align-content: center;
+    align-items: end;
+    gap: 1vw;
+}
+
+.contador button {
+    width: 35px;
+    height: 25px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #495057;
+    background: #4D5E80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background: #fff;
+    color: #495057
+}
+
+.contador span{
+    color: #4D5E80;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+
+.btn-confirmar{
+    width: 289px;
+    height: 48px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #495057;
+    background: #4D5E80;
+    font-size: 1.5rem;
+}
+

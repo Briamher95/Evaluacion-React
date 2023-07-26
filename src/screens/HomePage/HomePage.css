@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #F7F8FA;
+    padding-bottom: 25px;
+}
+
+h1 {
+    
+    margin: 30px 0 30px 50px;
+    color: #4D5E80;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+}

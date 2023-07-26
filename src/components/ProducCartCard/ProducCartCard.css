@@ -1,0 +1,31 @@
+.productCartCardContainer {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(156, 156, 156, 0.253);
+    background-color: white;
+}
+
+
+.productCartCardContainer img {
+    height: 150px;
+    background-color: white;
+}
+
+.productCartCardContainer h2 {
+    color: #4D5E80;
+    background-color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.productCartCardContainer h4 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    color: #6B7A99;
+}

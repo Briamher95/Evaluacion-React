@@ -1,0 +1,57 @@
+
+.carrito {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.carritoTitulo {
+    color: #4D5E80;
+    font-size: 1.5rem;
+    margin: 30px 0 0 80px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.carritoPageContainer h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container button {
+    width: 289px;
+    height: 48px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #495057;
+    background: #4D5E80;
+    font-size: 1rem;
+}
+
+.btn-container button:hover {
+    background: #fff;
+    color: #495057
+}
+
+.total {
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+}
