@@ -6,6 +6,10 @@ import "./CarritoPage.css"
 export const CarritoPage = () => {
     const { cart, getTotal } = useCustomContext()
     console.log(getTotal())
+
+    const onClickFinish = () => {
+        alert("your purchase is finished")
+    }
     return (
         <>
             <h2 className='carritoTitulo'>Your Cart: <b>{cart.length} items in cart</b></h2>
@@ -21,14 +25,12 @@ export const CarritoPage = () => {
                     :
                     <h1>No has comprado nada aún</h1>
                 }
-
             <div className='total'>
                 <p >Total: <b>${getTotal()}</b></p>
             </div>
             <div className='btn-container'>
-                <button>Buy it Now!</button>
+                <button onClick={onClickFinish} >Buy it Now!</button>
             </div>
         </>
     )
 }
-
